@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "coding/nodejs/vitest.md",
+                "file": "coding/nodejs/fastify.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding/nodejs/vitest.md",
+                "file": "coding/nodejs/fastify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "coding/nodejs/vitest.md",
+                "file": "coding/nodejs/fastify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "coding/nodejs/vitest.md"
+                "file": "coding/nodejs/fastify.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "6caec1c4ffd7c661",
   "lastOpenFiles": [
-    "Untitled.md",
-    "coding/nodejs/vitest.md",
+    "coding/nodejs/build-deploy.md",
     "coding/nodejs/fastify.md",
-    "coding/nodejs/Notes.md",
     "coding/nodejs/knex.md",
+    "coding/nodejs/Notes.md",
+    "coding/nodejs/vitest.md",
+    "Untitled.md",
     "coding/nlw-setup/server.md",
     "coding/nlw-setup/web.md",
     "fc/docker/Commands.md",
@@ -177,7 +178,6 @@
     "fc",
     "coding/naming branches/Commit Naming Convention.md",
     "coding/naming branches/Branch Naming Convention.md",
-    "coding/js-notes/template-literals.md",
     "coding/react-ignite",
     "coding/nlw-setup",
     "coding/naming branches",
