@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "coding/nodejs/fastify.md",
+                "file": "coding/nodejs/nodejs project init.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e83f989eb8348290",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "coding/nodejs/nodejs project init.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7462c9a103d58204",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "coding/nodejs/Prisma.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding/nodejs/fastify.md",
+                "file": "coding/nodejs/Prisma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "coding/nodejs/fastify.md",
+                "file": "coding/nodejs/Prisma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "coding/nodejs/fastify.md"
+                "file": "coding/nodejs/Prisma.md"
               }
             }
           }
@@ -146,14 +171,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6caec1c4ffd7c661",
+  "active": "7462c9a103d58204",
   "lastOpenFiles": [
-    "coding/nodejs/build-deploy.md",
-    "coding/nodejs/fastify.md",
-    "coding/nodejs/knex.md",
-    "coding/nodejs/Notes.md",
-    "coding/nodejs/vitest.md",
-    "Untitled.md",
+    "coding/nodejs/zod.md",
+    "coding/nodejs/Prisma.md",
+    "coding/nodejs/nodejs project init.md",
+    "coding/nodejs/GymPass lookalike App.md",
+    "pnpm.md",
+    "``.md",
+    "coding/nodejs/fastify-basics/vitest.md",
+    "coding/nodejs/fastify-basics/Notes.md",
+    "coding/nodejs/fastify-basics/knex.md",
+    "coding/nodejs/fastify-basics/fastify.md",
+    "coding/nodejs/fastify-basics/build-deploy.md",
+    "coding/nodejs/fastify-basics",
     "coding/nlw-setup/server.md",
     "coding/nlw-setup/web.md",
     "fc/docker/Commands.md",
@@ -171,13 +202,8 @@
     "coding/js-notes/short-syntax.md",
     "coding/react-ignite/project-1.md",
     "coding/js-notes/optional-chaining.md",
-    "coding/js-notes/objects.md",
-    "coding/js-notes/nullish-coalescing-operator.md",
-    "coding/js-notes/methods-array.md",
     "fc/comunicacao-sistemas",
     "fc",
-    "coding/naming branches/Commit Naming Convention.md",
-    "coding/naming branches/Branch Naming Convention.md",
     "coding/react-ignite",
     "coding/nlw-setup",
     "coding/naming branches",
@@ -185,7 +211,6 @@
     "coding",
     "fc/fundamentos-arq-software/assets/Screenshot 2024-05-17 at 04.21.30.png",
     "fc/fundamentos-arq-software/assets/Screenshot 2024-05-17 at 04.23.22.png",
-    "fc/fundamentos-arq-software/assets",
     "Screenshot 2024-04-10 at 22.45.30.png"
   ]
 }
