@@ -8,7 +8,7 @@ Adiciona as libs necessárias para rodar o projeto completamente com TS
 - `tsx`: lib para rodar o projeto localmente com TS.
 - `tsup`: lib para converter o código TS em JS para fazer a build do projeto, necessário no momento de subir o projeto para hospedar.
 
-- Adicionar no `package.json` os seguinte scripts:
+`package.json`
 ```JSON
 "scripts": {
 	"dev": "tsx watch src/server.ts",
@@ -24,23 +24,29 @@ De dentro do pacote do typescript, executar o `tsc` para gerar o `tsconfig.json`
 `pnpm add fastify`
 
 **Cria-se dois arquivos inicialmente:**
-- `app.ts`: onde faz as configurações do app (register ...)
+
+ `app.ts`: onde faz as configurações do app (register ...)
 ```TS
 import fastify from 'fastify';
 
 export const app = fastify()
 ```
-- `server.ts`: apensar para configurar o host e a porta da aplicação e acioná-la
-```TS
-import { app } from "./app";
 
-app.listen({
-	host: '0.0.0.0',
-	port: 3333
-}).then(() => {
+`server.ts`: apensar para configurar o host e a porta da aplicação e acioná-la
+```TS
+import { app } from './app'
+import { env } from './env'
+
+app
+	.listen({
+		host: '0.0.0.0',
+		port: env.PORT,
+	})
+.then(() => {
 	console.log('👻 Boo')
 })
 ```
+
 ## Environment variables
 Adiciona a lib `pnpm add dotenv` para fazer o carregamento das variáveis de ambiente para dentro do projeto.
 
@@ -48,9 +54,9 @@ Adiciona a lib `pnpm add dotenv` para fazer o carregamento das variáveis de amb
 ```.env
 NODE_ENV=dev
 ```
-Para acessar as variáveis no código usa-se `process.env`
 
-- Validação das variáveis de ambiente em `src/env/index.ts`
+Para acessar as variáveis no código usa-se `process.env`
+`src/env/index.ts`:  validação das variáveis de ambiente
 ```TS
 import 'dotenv/config'
 import {z} from 'zod'

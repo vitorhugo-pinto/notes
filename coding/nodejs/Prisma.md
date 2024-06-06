@@ -1,3 +1,4 @@
+
 # [Prisma](https://www.prisma.io/)
 `pnpm add -D prisma`
 -D pois é uma ferramenta CLI para executar os comandos do Prisma
@@ -9,7 +10,6 @@ Next steps:
 4. Run prisma generate to generate the Prisma Client. You can then start querying your database.
 
 `prisma/schema.prisma`
-
 ```Prisma
 model User {
 	id String @id @default(uuid())
@@ -25,4 +25,13 @@ model = tabela no banco
 
 `pnpm add @prisma/client`: cliente que gerencia e executa nossas necessidade com o banco dentro da aplicação
 
-`pnpm exec prisma generate`: aplica as alterações do arquivo `prisma/schema.prisma`
+`pnpm exec prisma generate`: item 4. do Next steps
+
+`pnpm exec prisma migrate dev --name <nome da migration>`: gera e roda os migrations
+
+**Hash para password de usuários**
+`pnpm add bcryptjs @types/bcryptjs`
+
+### Prisma API Reference - Filtering condition and operators
+
+[Docs](https://www.prisma.io/docs/orm/reference/prisma-client-reference#filter-conditions-and-operators)
