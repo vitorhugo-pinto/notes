@@ -32,6 +32,8 @@ model = tabela no banco
 **Hash para password de usuários**
 `pnpm add bcryptjs @types/bcryptjs`
 
-### Prisma API Reference - Filtering condition and operators
-
+### Filtering condition and operators
 [Docs](https://www.prisma.io/docs/orm/reference/prisma-client-reference#filter-conditions-and-operators)
+
+### Pagination
+[Docs](https://www.prisma.io/docs/orm/prisma-client/queries/pagination)
