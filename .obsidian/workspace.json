@@ -4,15 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3862c26b3083ccd7",
+        "id": "19a3d8cb3a4d16a1",
         "type": "tabs",
         "children": [
           {
-            "id": "3e082c10a5e784a5",
+            "id": "d32e01d808bae80e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "coding/naming branches/Commit Naming Convention.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Commit Naming Convention"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding/solid/Single responsibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +100,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -98,10 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "coding/solid/Single responsibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -112,7 +126,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -120,9 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "coding/solid/Single responsibility.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -142,44 +158,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c71c1a8777169264",
+  "active": "d32e01d808bae80e",
   "lastOpenFiles": [
+    "coding/naming branches/Branch Naming Convention.md",
+    "coding/js-notes/template-literals.md",
+    "coding/js-notes/short-syntax.md",
+    "coding/js-notes/optional-chaining.md",
+    "coding/js-notes/objects.md",
+    "coding/js-notes/nullish-coalescing-operator.md",
+    "coding/js-notes/methods-array.md",
+    "coding/nodejs/New project.md",
+    "coding/03-api-solid",
+    "Untitled",
+    "coding/nodejs/fastify-basics/knex.md",
+    "coding/nodejs/fastify-basics/build-deploy.md",
+    "coding/nodejs/nodejs project init.md",
+    "coding/nodejs/fastify.md",
+    "coding/nodejs/Prisma.md",
+    "coding/nodejs/vitest.md",
+    "coding/nodejs/zod.md",
+    "fc/solid/Single responsibility.md",
+    "coding/nodejs/GymPass lookalike App.md",
+    "pnpm.md",
     "coding/authentication principles",
-    "coding/solid/Single responsibility.md",
     "coding/nlw-setup/web.md",
     "coding/nlw-setup/server.md",
-    "pnpm.md",
-    "coding/solid",
+    "fc/solid",
     "projeto 03/folder structure.md",
     "Untitled.md",
     "projeto 03",
-    "coding/nodejs/nodejs project init.md",
-    "coding/nodejs/Prisma.md",
-    "coding/js-notes/methods-array.md",
-    "coding/nodejs/vitest.md",
-    "coding/nodejs/zod.md",
-    "coding/nodejs/GymPass lookalike App.md",
-    "coding/nodejs/fastify.md",
     "``.md",
-    "coding/nodejs/fastify-basics/Notes.md",
-    "coding/nodejs/fastify-basics/knex.md",
-    "coding/nodejs/fastify-basics/build-deploy.md",
     "coding/nodejs/fastify-basics",
     "fc/docker/Commands.md",
     "fc/docker/docker-compose.md",
     "fc/docker/Dockerfile.md",
-    "fc/docker/notes.md",
-    "fc/comunicacao-sistemas/REST.md",
     "coding/nodejs",
-    "fc/comunicacao-sistemas/graphQL.md",
-    "fc/comunicacao-sistemas/gRPC.md",
-    "fc/fundamentos-arq-software/Proxy reverso.md",
     "fc/comunicacao-sistemas",
     "fc",
     "coding/react-ignite",
-    "coding/nlw-setup",
-    "coding/naming branches",
-    "coding/js-notes",
     "fc/fundamentos-arq-software/assets/Screenshot 2024-05-17 at 04.21.30.png",
     "fc/fundamentos-arq-software/assets/Screenshot 2024-05-17 at 04.23.22.png",
     "Screenshot 2024-04-10 at 22.45.30.png"
